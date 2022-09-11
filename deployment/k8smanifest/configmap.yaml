@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: appimage
+  namespace: qa-ns
+data:
+   sample.conf: |
+
+            { "sample": {
+                 "db": "awesome.com",
+                 "user": "master"
+              }
+            }
+
